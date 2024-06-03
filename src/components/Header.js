@@ -20,9 +20,7 @@ const Logo = styled.div`
     font-style: italic;
 `;
 
-const NavItems = styled.div`
-
-`;
+const NavItems = styled.div``;
 
 const NavItemLink = styled(Link)`
     color: white;
@@ -35,9 +33,9 @@ const Header = () => {
         <Navbar>
             <Logo to='/'>Animal</Logo>
             <NavItems>
-                <NavItemLink to='/'>Home</NavItemLink>
-                <NavItemLink to='/about'>About</NavItemLink>
-                <NavItemLink to='/services'>Services</NavItemLink>
+                <NavItemLink to='/'>Trang chủ</NavItemLink>
+                <NavItemLink to='/about'>Thông tin</NavItemLink>
+                <NavItemLink to='/services'>Các dịch vụ</NavItemLink>
             </NavItems>
         </Navbar>
     )
