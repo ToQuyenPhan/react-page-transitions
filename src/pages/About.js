@@ -11,7 +11,6 @@ const About = () => {
             <Header />
             <HeroSection image={Image} title="Gấu mèo" 
                 description="Một loài động vật có vú bản địa Bắc Mỹ." />
-            About
         </motion.div>
     )
 }

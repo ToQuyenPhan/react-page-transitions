@@ -7,11 +7,10 @@ import { servicesAnimation, transition } from '../animations';
 
 const Services = () => {
     return (
-        <motion.div initial="out" animate="end" exit="in" variants={servicesAnimation} transition={transition}>
+        <motion.div initial="out" animate="end" exit="out" variants={servicesAnimation} transition={transition}>
             <Header />
             <HeroSection image={Image} title="Sóc" 
                 description="Các loài gặm nhấm cỡ nhỏ hoặc trung bình." />
-            Services
         </motion.div>
     )
 }

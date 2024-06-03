@@ -5,7 +5,8 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: Open-'Trebuchet MS', 'Lucida Sans unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 
+            'Droid Sans', 'Helvetica Neue', sans-serif;
     }
 `;
 
